@@ -1,7 +1,8 @@
 ```
-  ___  _ __   ___           | |___      _____    _ __  _   _ _ __   ___| |__   / \\
+                             _                                          _       _
+  ___  _ __   ___           | |___      _____    _ __  _   _ _ __   ___| |__   / \
  / _ \| '_ \ / _ \          | __\ \ /\ / / _ \  | '_ \| | | | '_ \ / __| '_ \ /  /
-| (_) | | | |  __/ ᕦ(ò_óˇ)ᕤ | |_ \ V  V / (_) | | |_) | |_| | | | | (__| | | /\_/ 
+| (_) | | | |  __/ ᕦ(ò_óˇ)ᕤ| |_ \ V  V / (_) | | |_) | |_| | | | | (__| | | /\_/ 
  \___/|_| |_|\___|           \__| \_/\_/ \___/  | .__/ \__,_|_| |_|\___|_| |_\/   
                                                 |_|                               
                                                               improved by arty-hlr
@@ -14,15 +15,6 @@ Usage: onetwopunch -t target [-p tcp/udp/all] [-n nmap-options] [-v] [-h]
        -v: Debug, see commands and be verbose
 ```
 
-Improvements:
-
-[+] Added -v flag to see the command used and be verbose
-[+] Print usage in case the script is not run as root
-[+] Use a single target instead of a target file
-[+] Made the default of no option for nmap REALLY no option
-[+] Made logdir in the pwd
-[+] Removed unnecessary directories in /scan and made .txt output files only
-
 onetwopunch
 ===========
 
@@ -33,3 +25,14 @@ Unicornscan is another port scanner that utilizes it’s own userland TCP/IP sta
 So, the idea behind this post is to utilize both tools to generate a scan of 65,535 ports on the targets. We will use unicornscan to scan all ports, and make a list of those ports that are open. We will then take the open ports and pass them to nmap for service detection.
 
 For more details, see [http://blog.techorganic.com/2012/05/31/port-scanning-one-two-punch/](http://blog.techorganic.com/2012/05/31/port-scanning-one-two-punch/)
+
+Improvements
+============
+
+[+] Added -v flag to see the command used and be verbose
+[+] Print usage in case the script is not run as root
+[+] Use a single target instead of a target file
+[+] Made the default of no option for nmap REALLY no option
+[+] Made logdir in the pwd
+[+] Removed unnecessary directories in /scan and made .txt output files only
+
