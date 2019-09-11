@@ -12,12 +12,12 @@ For more details, see [http://blog.techorganic.com/2012/05/31/port-scanning-one-
 Improvements
 ============
 
-[+] Added -v flag to see the command used and be verbose
-[+] Print usage in case the script is not run as root
-[+] Use a single target instead of a target file
-[+] Made the default of no option for nmap REALLY no option
-[+] Made logdir in the pwd
-[+] Removed unnecessary directories in /scan and made .txt output files only
++ Added -v flag to see the command used and be verbose
++ Print usage in case the script is not run as root
++ Use a single target instead of a target file
++ Made the default of no option for nmap REALLY no option
++ Made logdir in the pwd
++ Removed unnecessary directories in /scan and made .txt output files only
 
 Update usage
 ============
