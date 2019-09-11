@@ -1,3 +1,28 @@
+```
+  ___  _ __   ___           | |___      _____    _ __  _   _ _ __   ___| |__   / \\
+ / _ \| '_ \ / _ \          | __\ \ /\ / / _ \  | '_ \| | | | '_ \ / __| '_ \ /  /
+| (_) | | | |  __/ ᕦ(ò_óˇ)ᕤ | |_ \ V  V / (_) | | |_) | |_| | | | | (__| | | /\_/ 
+ \___/|_| |_|\___|           \__| \_/\_/ \___/  | .__/ \__,_|_| |_|\___|_| |_\/   
+                                                |_|                               
+                                                              improved by arty-hlr
+
+Usage: onetwopunch -t target [-p tcp/udp/all] [-n nmap-options] [-v] [-h]
+       -h: Help
+       -t: Target
+       -p: Protocol. Defaults to tcp
+       -n: NMAP options (-A, -O, etc). Defaults to no options.
+       -v: Debug, see commands and be verbose
+```
+
+Improvements:
+
+[+] Added -v flag to see the command used and be verbose
+[+] Print usage in case the script is not run as root
+[+] Use a single target instead of a target file
+[+] Made the default of no option for nmap REALLY no option
+[+] Made logdir in the pwd
+[+] Removed unnecessary directories in /scan and made .txt output files only
+
 onetwopunch
 ===========
 

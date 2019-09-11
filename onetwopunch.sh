@@ -14,12 +14,12 @@ echo " / _ \| '_ \ / _ \          | __\ \ /\ / / _ \  | '_ \| | | | '_ \ / __| '
 echo "| (_) | | | |  __/ ᕦ(ò_óˇ)ᕤ | |_ \ V  V / (_) | | |_) | |_| | | | | (__| | | /\_/ "
 echo " \___/|_| |_|\___|           \__| \_/\_/ \___/  | .__/ \__,_|_| |_|\___|_| |_\/   "
 echo "                                                |_|                               "
-echo "                                                                   by superkojiman"
+echo "                                                              improved by arty-hlr"
 echo ""
 }
 
 function usage {
-    echo "Usage: $0 -t target [-p tcp/udp/all] [-n nmap-options] [-h]"
+    echo "Usage: $0 -t target [-p tcp/udp/all] [-n nmap-options] [-v] [-h]"
     echo "       -h: Help"
     echo "       -t: Target"
     echo "       -p: Protocol. Defaults to tcp"
