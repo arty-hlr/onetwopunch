@@ -19,8 +19,8 @@ Improvements
 + Made logdir in the pwd
 + Removed unnecessary directories in /scan and made .txt output files only
 
-Update usage
-============
+Updated usage
+=============
 
 ```
 Usage: onetwopunch -t target [-p tcp/udp/all] [-n nmap-options] [-v] [-h]
